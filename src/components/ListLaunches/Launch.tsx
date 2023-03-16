@@ -39,7 +39,9 @@ const Launch = ({ launch, addOrRemoveFavs, favorites }: LauncheProps) => {
               ❤︎ <span>Delete</span>
             </span>
           ) : (
-            <span style={{ fontSize: "20px" }}>❤︎ Add</span>
+            <span style={{ fontSize: "20px" }}>
+              ❤︎ <span>Add</span>
+            </span>
           )}
         </button>
       </div>
