@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useFetchList } from "../../hooks/useFetchList";
 import { MessageError } from "../MessageError/MessageError";
-import { MessageLoading } from "../MessageLoading/MessageLoading";
+import { Spinner } from "../Spinner/Spinner";
 import Launch from "./Launch";
 import {
   StyledContainer,
@@ -60,8 +60,8 @@ const ListLaunches = () => {
       {errorState.hasError && (
         <MessageError messageError={errorState.message} />
       )}
-      {!errorState.hasError && isLoading && <MessageLoading />}
-      {!errorState.hasError && (
+      {!errorState.hasError && isLoading && <Spinner />}
+      {!errorState.hasError && !isLoading && (
         <StyledContainer>
           <h2 className="info_title">Upcoming - Next Launches</h2>
           <StyledContainerLaunches className="launches__container">

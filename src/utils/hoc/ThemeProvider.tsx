@@ -13,6 +13,10 @@ export const getTheme = () => {
       darkViolet: "#271f2c",
       darkGray: "#5E5E5E",
       lightGray: " #F2F2F2",
+      brandColor1: "#00ff99",
+      brandColor2: "#00ccff",
+      brandColor3: "#9933ff",
+      brandColor4: "#fff35c",
     },
     fonts: {
       mainSans: "'Open Sans', sans-serif",

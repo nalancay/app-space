@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useFetchLaunche } from "../../hooks/useFetchLaunche";
 import { MessageError } from "../MessageError/MessageError";
-import { MessageLoading } from "../MessageLoading/MessageLoading";
+import { Spinner } from "../Spinner/Spinner";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -64,7 +64,7 @@ const LaunchCountdown = () => {
       {errorState.hasError && (
         <MessageError messageError={errorState.message} />
       )}
-      {!errorState.hasError && isLoading && <MessageLoading />}
+      {!errorState.hasError && isLoading && <Spinner />}
       {launche && (
         <StyledContainer>
           <h2 className="info_title">Launch Upcoming:{launche.name}</h2>

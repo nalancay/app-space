@@ -10,7 +10,7 @@ Open [https://nalancay-app-launches.netlify.app/](https://nalancay-app-launches.
 
 ### `Technical details`
 
-This project uses technical skills with React library, typeScript, localStorage, hoc (high order component), custom hooks, Api consumption, route management and styled-component for the styling of the web page.
+This project uses technical skills with ✨React library, ✨typeScript, ✨localStorage, ✨hoc (high order component), ✨custom hooks, ✨Api consumption, ✨route management and ✨styled-component for the styling of the web page.
 
 ### `Functional features:`
 
@@ -22,9 +22,11 @@ This project uses technical skills with React library, typeScript, localStorage,
 
 📌 Functionality to share link of this website through social networks of facebook and whatsapp.
 
+📌 Shows the 'Loading' message while waiting for a response from the server regarding the data it consumes from the API..
+
 ### `Detalle técnicos`
 
-Este proyecto utiliza habilidades técnicas con libreria React, typeScript, localStorage, hoc (high order component) , custom hooks, consumo de Api, manejo de rutas y styled-component para el estilido de la pagina web.
+Este proyecto utiliza habilidades técnicas con ✨libreria React, ✨typeScript, ✨localStorage, ✨hoc (high order component) , ✨custom hooks, ✨consumo de Api, ✨manejo de rutas y ✨styled-component para el estilido de la pagina web.
 
 ### `Características funcionales:`
 
@@ -35,3 +37,5 @@ Este proyecto utiliza habilidades técnicas con libreria React, typeScript, loca
 📌 Agrega o elimina un favorito de un lanzamiento espacial.\
 
 📌 Funcionalidad para compartir enlace de este sitio web por medio de redes sociales de facebook y whatsapp.
+
+📌 Muestra mensaje 'Loading' mientras espera respuesta del servidor de los datos que consume del API.
